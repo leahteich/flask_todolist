@@ -23,9 +23,10 @@
         </form>
 
         <hr>
-
+        <!-- Jacksonian Concept: Template (unrendered) -->
         {% for todo in todo_list %}
         <div class="ui segment">
+            <!-- Jacksonian Concept: Logical Statements in Templates -->
             <p class="ui big header">{{todo.id }} | {{ todo.title }}</p>
 
             {% if todo.complete == False %}
